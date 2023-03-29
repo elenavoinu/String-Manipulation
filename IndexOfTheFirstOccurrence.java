@@ -5,7 +5,7 @@ public class IndexOfTheFirstOccurrence {
         System.out.println(strStr("haystack", "needle"));
         System.out.println(strStr(input, input2));
     }
-    public static int strStr(String haystack, String needle) {
+    private static int strStr(String haystack, String needle) {
         if (needle.isEmpty()) {
             return 0;
         }
